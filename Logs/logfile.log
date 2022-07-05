@@ -1,0 +1,30 @@
+2022-07-05 20:17:25,158  INFO [main] Utils:112 : [TestNG] Running:
+  C:\Users\El-Kheshen\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-07-05 20:17:25,186  INFO [main] WebDriverManager:269 : Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2022-07-05 20:17:25,186  INFO [main] WebDriverManager:271 : ====> http://tiny.cc/wdm-survey <====
+2022-07-05 20:17:25,402  INFO [main] WebDriverManager:571 : Using geckodriver 0.31.0 (since Firefox 101 is installed in your machine)
+2022-07-05 20:17:25,414  INFO [main] WebDriverManager:615 : Exporting webdriver.gecko.driver as C:\Users\El-Kheshen\.m2\repository\webdriver\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-05 20:59:37,807  INFO [main] Utils:112 : [TestNG] Running:
+  C:\Users\El-Kheshen\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-07-05 20:59:37,835  INFO [main] WebDriverManager:269 : Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2022-07-05 20:59:37,835  INFO [main] WebDriverManager:271 : ====> http://tiny.cc/wdm-survey <====
+2022-07-05 20:59:38,052  INFO [main] WebDriverManager:571 : Using geckodriver 0.31.0 (since Firefox 101 is installed in your machine)
+2022-07-05 20:59:38,067  INFO [main] WebDriverManager:615 : Exporting webdriver.gecko.driver as C:\Users\El-Kheshen\.m2\repository\webdriver\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-05 20:59:40,253  INFO [main] TestBase:64 : driver started
+2022-07-05 21:14:09,914  INFO [main] Utils:112 : [TestNG] Running:
+  C:\Users\El-Kheshen\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-07-05 21:14:09,930  INFO [main] WebDriverManager:269 : Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2022-07-05 21:14:09,930  INFO [main] WebDriverManager:271 : ====> http://tiny.cc/wdm-survey <====
+2022-07-05 21:14:10,967  WARN [main] WebDriverManager:716 : There was an error managing geckodriver (latest version) (Cannot invoke "String.startsWith(String)" because "driverVersion" is null) ... trying again using latest driver stored in cache
+2022-07-05 21:14:10,967  INFO [main] WebDriverManager:872 : Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2022-07-05 21:14:11,466  INFO [main] WebDriverManager:615 : Exporting webdriver.gecko.driver as C:\Users\El-Kheshen\.m2\repository\webdriver\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-05 21:14:13,424  INFO [main] TestBase:64 : driver started
+2022-07-05 21:14:59,049 ERROR [main] PageBase:67 : Element is clickedBy.xpath: //input[@id='id_gender2']org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='id_gender2'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-24VCBV6', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 34344, moz:profile: C:\Users\EL-KHE~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 26d5ea74-a0c1-4f9f-8e35-de4888efae81
