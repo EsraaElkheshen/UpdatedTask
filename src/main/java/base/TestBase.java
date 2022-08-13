@@ -50,7 +50,16 @@ public class TestBase {
         option.setCapability("resolution", "1024x768");
         return option;
     }
-
+    // Download from FireFox
+    public static FirefoxOptions firefoxOption2() {
+        FirefoxOptions option = new FirefoxOptions();
+        option.setAcceptInsecureCerts(true);
+        option.addPreference("browser.download.folderList", 2);
+        option.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream");
+        option.addPreference("browser.download.manager.showWhenStarting", false);
+        option.setCapability("resolution", "1024x768");
+        return option;
+    }
     @BeforeTest
     @Parameters({"browser"})
     public void openDriver(@Optional("firefox") String browserName) {
